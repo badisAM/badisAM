@@ -35,31 +35,50 @@ Today, that means I:
 
 ---
 
-## From data to decisions
+## Experience
 
-The pipeline I keep coming back to, end to end:
-
-```mermaid
-flowchart LR
-    A[Odoo<br/>operational data] --> B[Talend<br/>ETL]
-    B --> C[SQL Server<br/>warehouse]
-    C --> D[Power BI<br/>dashboards]
-    D --> E[Web app<br/>ML / time series]
-```
-
-Same data moves from an ERP through transformation and warehousing into a dashboard, then into a model a user actually interacts with.
+**Sagemcom Software & Technologies**
+*AI & Software Engineering Intern, Jul–Aug 2026*
+Automated JIRA/Xray and internal RETRACK validation-report generation (Flask + Angular), cutting report time from 2h/day to under 2 minutes, and designed an 8-agent LLM/RAG pipeline to verify requirement-to-test coverage across 1,000+ Xray test cases.
 
 ---
 
-## Experience & collaborations
+## Featured projects
 
-**Sagemcom**
-*AI & Software Engineering Intern, Jul–Aug 2026*
-Designed an 8-agent LLM/RAG pipeline (BM25 pre-filtering, embeddings, citation-grounded evidence) to audit requirement-to-test coverage across 1,000+ Xray test cases, and automated end-to-end JIRA/Xray report generation, cutting report time from 2h/day to under 2 minutes.
+Three projects that best show how I put agentic AI and data systems together, end to end.
 
-**VITAL**
-*[rôle / type de projet à préciser], [dates]*
-[Une ou deux lignes sur ta mission — donne-moi les détails et je complète cette partie.]
+### Sagemcom RETRACK
+
+An 8-agent coverage engine that checks whether every clause of a requirement is actually tested, and flags what's missing.
+
+```mermaid
+flowchart LR
+    A["Analyse<br/>Requirement + Test Plan"] --> B["Indexation<br/>BM25 + Embeddings"]
+    B --> C["Sélection<br/>Prefilter, Evidence, Rerank hybride"]
+    C --> D["Vérification<br/>Agent LLM + Juge"]
+    D --> E["Finalisation<br/>Verdicts, Gaps, Validate"]
+```
+
+Eight specialized agents (requirement decomposer, rules/evidence engine, hybrid reranker, LLM verifier, judge, synthesizer, coverage-gap finder) sit around a central orchestrator. Retrieval combines BM25 with embeddings to surface the right clauses, a local LLM (Ollama) verifies each match with a citation and a counter-argument pass, and a calibrated judge applies strict confirmation thresholds before anything is flagged. On the validation set, the system reached a recall of 0.67 with zero false positives.
+
+### VITAL — Agent Produits
+
+A product-recommendation agent built for VITAL's catalog, as part of a larger multi-agent platform.
+
+```mermaid
+flowchart LR
+    A["Requête<br/>utilisateur"] --> B["Orchestrateur<br/>central"]
+    B --> C["Recherche hybride RAG<br/>FAISS"]
+    C --> D["Analyse contextuelle<br/>LLaMA 3"]
+    D --> E["Scoring & décision<br/>métier"]
+    E --> F["Recommandations<br/>511 références produits"]
+```
+
+Hybrid retrieval (FAISS) narrows the catalog down to relevant candidates, an LLM (LLaMA 3) reasons over them with structured prompting, and a scoring layer turns that into a business decision, ranked recommendations across VITAL's 511-reference product catalog.
+
+### EduVision
+
+Image captioning with a CNN encoder (ResNet-50) and a Transformer decoder, using beam search decoding to improve BLEU-score performance over greedy decoding.
 
 ---
 
@@ -79,7 +98,7 @@ Designed an 8-agent LLM/RAG pipeline (BM25 pre-filtering, embeddings, citation-g
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
-**Data engineering & BI**: Odoo → Talend → SQL Server → Power BI
+**Data engineering & BI**: Odoo, Talend, SQL Server, Power BI
 
 ![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white)
 ![Talend](https://img.shields.io/badge/Talend-FF6D70?style=flat-square&logo=talend&logoColor=white)
