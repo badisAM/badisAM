@@ -1,13 +1,20 @@
 <div align="center">
 
 # Ammar Bedis
-### Computer Engineering Student, Data Science & AI @ ESPRIT, Tunis 🇹🇳
 
-*Agentic AI systems, data pipelines, and full-stack engineering, built end to end.*
+**I turn operational data into deployed AI systems, from ERP exports to production-ready agents.**
+
+Computer Engineering Student, Data Science & AI @ ESPRIT, Tunis 🇹🇳
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/bedis-ammar)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ammarbedis@gmail.com)
 [![Open to PFE](https://img.shields.io/badge/Open%20to-PFE%20Internship%2C%20Jan%202027-1B998B?style=flat-square)]()
+
+**Worked with**
+
+![Sagemcom](https://img.shields.io/badge/Sagemcom-2D3142?style=flat-square)
+![VITAL](https://img.shields.io/badge/VITAL-2D3142?style=flat-square)
+![Tunisie Telecom](https://img.shields.io/badge/Tunisie%20Telecom-2D3142?style=flat-square)
 
 </div>
 
@@ -15,16 +22,16 @@
 
 ## About
 
-I move across three layers of the modern software stack: building the applications, orchestrating the AI systems inside them, and making sure the data feeding all of it is actually trustworthy.
+I move across three layers of the modern stack: building applications, orchestrating the AI systems inside them, and making sure the data feeding all of it is trustworthy.
 
-**Foundations → Development → AI Engineering** is roughly how I got here: two years of math, algorithms and systems in the preparatory cycle, a year spent shipping full-stack applications, and now, designing agentic pipelines and applying ML to real data.
+Foundations → Development → AI Engineering is roughly how I got here: two years of math, algorithms and systems in the preparatory cycle, a year shipping full-stack applications, and now, designing agentic pipelines and applying ML to real data.
 
 Today, that means I:
 - Design multi-agent LLM systems: orchestration, tool-calling, RAG pipelines grounded in real evidence
 - Build the data pipelines that feed them, from operational systems through ETL and warehousing to BI, and eventually, a working model
 - Develop the full-stack applications that put both in front of a user
 
-🎓 Looking for an end-of-studies internship (PFE), starting January 2027 — open to AI engineering, data platform, or full-stack roles.
+🎓 Looking for an end-of-studies internship (PFE), starting January 2027, open to AI engineering, data platform, or full-stack roles.
 
 ---
 
@@ -44,22 +51,27 @@ Same data moves from an ERP through transformation and warehousing into a dashbo
 
 ---
 
-## Recent experience
+## Experience & collaborations
 
-**AI & Software Engineering Intern, Sagemcom** (Jul–Aug 2026)
+**Sagemcom**
+*AI & Software Engineering Intern, Jul–Aug 2026*
 Designed an 8-agent LLM/RAG pipeline (BM25 pre-filtering, embeddings, citation-grounded evidence) to audit requirement-to-test coverage across 1,000+ Xray test cases, and automated end-to-end JIRA/Xray report generation, cutting report time from 2h/day to under 2 minutes.
+
+**VITAL**
+*[rôle / type de projet à préciser], [dates]*
+[Une ou deux lignes sur ta mission — donne-moi les détails et je complète cette partie.]
 
 ---
 
 ## Tech stack
 
-**Agentic AI & LLM orchestration** — multi-agent pipelines, RAG, tool-calling
+**Agentic AI & LLM orchestration**: multi-agent pipelines, RAG, tool-calling
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 
-**Data science & machine learning** — classification, forecasting, anomaly detection
+**Data science & machine learning**: classification, forecasting, anomaly detection
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
@@ -67,7 +79,7 @@ Designed an 8-agent LLM/RAG pipeline (BM25 pre-filtering, embeddings, citation-g
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
-**Data engineering & BI** — Odoo → Talend → SQL Server → Power BI
+**Data engineering & BI**: Odoo → Talend → SQL Server → Power BI
 
 ![Odoo](https://img.shields.io/badge/Odoo-714B67?style=flat-square&logo=odoo&logoColor=white)
 ![Talend](https://img.shields.io/badge/Talend-FF6D70?style=flat-square&logo=talend&logoColor=white)
@@ -76,7 +88,7 @@ Designed an 8-agent LLM/RAG pipeline (BM25 pre-filtering, embeddings, citation-g
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-**Software engineering** — the applications everything else lives inside
+**Software engineering**: the applications everything else lives inside
 
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -89,14 +101,14 @@ Designed an 8-agent LLM/RAG pipeline (BM25 pre-filtering, embeddings, citation-g
 
 ## Certifications
 
-- NVIDIA — AI for Anomaly Detection
-- NVIDIA — Fundamentals of Deep Learning
-- 365 Data Science — CNN with TensorFlow in Python
+- NVIDIA: AI for Anomaly Detection
+- NVIDIA: Fundamentals of Deep Learning
+- 365 Data Science: CNN with TensorFlow in Python
 
 ---
 
 <div align="center">
 
-Thanks for reading — always happy to talk AI, data, or both.
+Thanks for reading. Always happy to talk AI, data, or both.
 
 </div>
