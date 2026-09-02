@@ -45,9 +45,9 @@ Automated JIRA/Xray and internal RETRACK validation-report generation (Flask + A
 
 ## Featured projects
 
-Three projects that best show how I put agentic AI and data systems together, end to end.
+The projects that best show how I put agentic AI and data systems together, end to end.
 
-### Sagemcom RETRACK
+### Sagemcom coverage engine
 
 An 8-agent coverage engine that checks whether every clause of a requirement is actually tested, and flags what's missing.
 
@@ -79,6 +79,19 @@ Hybrid retrieval (FAISS) narrows the catalog down to relevant candidates, an LLM
 ### EduVision
 
 Image captioning with a CNN encoder (ResNet-50) and a Transformer decoder, using beam search decoding to improve BLEU-score performance over greedy decoding.
+
+### BI Platform
+
+An end-to-end ETL and reporting pipeline for ERP analytics and KPI monitoring.
+
+```mermaid
+flowchart LR
+    A["Odoo<br/>ERP data"] --> B["Talend<br/>ETL"]
+    B --> C["SQL Server<br/>warehouse"]
+    C --> D["Power BI<br/>dashboards"]
+```
+
+Operational data moves from Odoo through Talend for transformation, into a SQL Server warehouse, and out to Power BI dashboards used for ERP analytics and KPI monitoring.
 
 ---
 
