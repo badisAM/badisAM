@@ -24,7 +24,7 @@ Computer Engineering Student, Data Science & AI @ ESPRIT, Tunis 🇹🇳
 ## About
 
 My specialty is **retrieval engineering and the evaluation of LLM systems**: hybrid retrieval
-(BM25, TF-IDF, dense embeddings, rank fusion), calibrated decision thresholds, and
+(FAISS, dense embeddings, rank fusion), calibrated decision thresholds, and
 multi-metric protocols that make a comparison mean something.
 
 Two years of preparatory mathematics, a year shipping full-stack applications, and now
